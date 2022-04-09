@@ -9,6 +9,11 @@
     text-align: center;
 }
 
+.title {
+    position: center;
+    color: gold;
+}
+
 .body {
 max-width: 900px;
 margin: 20px auto;
