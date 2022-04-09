@@ -23,6 +23,11 @@ padding-top: 50px;
 padding-bottom: 40px;
 }
 
+.img {
+    display: block;
+    margin: 0% auto;
+}
+
 .main{
 margin-right: 140 px;
 font-size: 14px;
