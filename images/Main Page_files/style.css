@@ -17,10 +17,11 @@ header, footer {
     background-position: center;
     background-size: cover;
     color: white;
-    padding: 10px 0;
+    border-bottom: 3px solid #55588f;
 }
 header {
-    border-bottom: 3px solid #55588f;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 #headerContent {
     width: 800px;
@@ -36,11 +37,6 @@ header {
     text-align: center;
     color: white;
     text-decoration: none;
-    transition: all 1 ease-out;
-}
-#headerContent a:hover{
-    background-color: black;
-    color: white;
 }
 h1 {
     grid-area: title;
@@ -76,74 +72,17 @@ h2 {
     gap: 10px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    place-items: center;
 }
 .movies img {
     max-height: fit-content;
     width: 100%;
     height: 100%;
     border: 2px solid black;
-    opacity: .7;
-    align-content: center;
 }
-.movies img:hover {
-    opacity: 1;
-}
-img {
-    max-width: 300px;
-    float: left;
-    margin: 10px;
-}
-p {
-    text-align: left;
-    margin: 10px;
-}
+
 footer {
     text-align: center;
     margin-top: auto;
     border-top: 3px solid #55588f;
-}
-
-@media screen and (max-width: 500px){
-    #headerContent {
-        width: auto;
-        grid-template-areas: 
-        'title title title title'
-        'JP DN JC CC';
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-template-rows: 20px 20px;
-        row-gap: 20px;
-        text-align: center;
-        align-items: center;
-        padding-top: 5px;
-    }
-    main {
-        width: auto;
-        margin: 10px auto;
-        padding: 12px;
-        background-color: rgb(255, 255, 255)  ;
-        border: 3px solid #55588f;
-        text-align: center;
-    }
-    .movies {
-        display: grid;
-        grid-template-areas: 
-        'movie1' 
-        'movie2'
-        'movie3' 
-        'movie4';
-        gap: 10px;
-        grid-template-columns: 1fr;
-        place-items: center;
-    }
-    .movies img {
-        max-height: fit-content;
-        border: 2px solid black;
-        opacity: 1;
-        align-content: center;
-    }
-    img {
-        float: none;
-    }
-
+    padding: 20px;
 }
