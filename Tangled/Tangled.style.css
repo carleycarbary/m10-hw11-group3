@@ -1,0 +1,77 @@
+.topheader {
+    padding: 60px;
+    text-align: center;
+    background: gold;
+    color: white;
+    font-size: 20px;
+  }
+
+body {
+    max-width: 800px;
+    margin: 24px auto;
+    background-color: #064579;
+    color: antiquewhite;
+
+}
+
+.button {
+    background-color:white; 
+    border: none;
+    color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .main {
+    margin-right: 140px;
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+  
+
+.logo-img {
+max-width: 200px;
+max-height: 200px;
+text-align: ;
+}
+
+.imageone {
+float:right; 
+max-width: 300px; 
+height: 350px;
+}
+
+.img-container { 
+    display: block;
+    text-align: center;
+    max-width: 500px;
+    height: 300px;
+}
+
+header > nav {
+    float: right;
+}
+
+article {
+    float: right
+    max-width: 700px;
+}
+
+h3{ 
+    display: inline-block;
+}
+article aside {
+    float: left;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: gold;
+    color: antiquewhite;
+}
