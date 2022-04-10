@@ -44,6 +44,7 @@ body {
 
 .sidebar1 {
     position: right;
+    float: left;
     width: 250px;
     top: 0;
     left: 0;
