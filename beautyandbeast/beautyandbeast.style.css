@@ -247,7 +247,7 @@ background-color: royalblue;
     max-width: 320px;
     min-width: 240px;
     overflow: hidden;
-    position: relative;
+    position: right;
     text-align: center;
     width: 100%;
   }
