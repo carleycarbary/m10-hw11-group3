@@ -42,17 +42,6 @@ body {
     padding-top: 0px;
 }
 
-.sidebar2 {
-    position: right;
-    float: left;
-    width: 250px;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    background: mediumblue;
-    padding-top: 0px;
-}
-
 h1 {
     color: wheat;
 }
