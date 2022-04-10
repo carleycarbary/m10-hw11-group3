@@ -21,6 +21,14 @@ padding-top: 50px;
 padding-bottom: 40px;
 }
 
+body {
+    background-image: url(ballroom.jpeg);
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .button {
     background-color: gold;
     border: darkblue;
@@ -57,16 +65,6 @@ padding-bottom: 40px;
 .container {
     display: block;
     position: left;
-}
-
-
-
-
-.restaurant {
-    width: 500px;
-    height: 400px;
-    display: block;
-    position: right;
 }
 
 .img {
