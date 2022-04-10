@@ -78,8 +78,8 @@ background-color: royalblue;
 .footer {
     position: bottom;
     justify-content: center;
-    left: 20%;
-    top: 20%;
+    left: 0%;
+    top: 0%;
     width: 100%;
     background-color: goldenrod;
     color: royalblue;
