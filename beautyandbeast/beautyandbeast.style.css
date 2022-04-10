@@ -72,9 +72,6 @@ h1 {
 .container {
     width: 230;
     height: 175;
-    position: absolute;
-    top: 50%;
-    left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 0 10px 20px rgb(40, 40, 40)
 }
