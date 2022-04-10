@@ -27,12 +27,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: darkblue;
+    color: white;
     font-weight: bold;
 }
 
 h1 {
-    color: darkblue;
+    color: wheat;
 }
 
 .button {
