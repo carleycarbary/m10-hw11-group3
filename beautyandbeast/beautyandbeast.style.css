@@ -59,7 +59,11 @@ padding-bottom: 40px;
     position: left;
 }
 
+
+
+
 .restaurant {
+    width: fit-content;
     display: block;
     position: right;
 }
