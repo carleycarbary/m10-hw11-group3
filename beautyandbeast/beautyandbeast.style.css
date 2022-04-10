@@ -39,6 +39,7 @@ body {
     left: 0;
     bottom: 0;
     background: mediumblue;
+    padding-top: 50px;
 }
 
 .right.sidebar {
@@ -47,7 +48,8 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    background: transparent;
+    background: mediumblue;
+    padding-top: 50px;
 }
 
 h1 {
