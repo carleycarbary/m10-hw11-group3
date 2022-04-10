@@ -22,7 +22,7 @@ padding-bottom: 40px;
 }
 
 .boxes {
-    width: 100px;
+    width: 150px;
     min-height: 100px;
     background: #fff;
     margin: 70px auto 0;
@@ -33,7 +33,7 @@ padding-bottom: 40px;
 
 .boxes .box {
     position: relative;
-    width: 100px;
+    width: 150px;
     height: 100px;
     background: #ff0;
     margin: 10px;
@@ -45,7 +45,7 @@ padding-bottom: 40px;
 }
 
 .boxes .box .imgbox1 img {
-    max-width: 100px;
+    max-width: 150px;
     max-height: 100px;
 }
 
