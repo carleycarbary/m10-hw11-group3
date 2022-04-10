@@ -23,7 +23,7 @@ padding-bottom: 40px;
 
 .boxes {
     max-width: 500px;
-    max-height: 200px;
+    max-height: 250px;
     background: #fff;
     margin: 70px auto 0;
     display: flex;
@@ -34,7 +34,7 @@ padding-bottom: 40px;
 .boxes .box {
     position: relative;
     max-width: 500px;
-    max-height: 200px;
+    max-height: 250px;
     background: #ff0;
     margin: 10px;
     box-sizing: border-box;
@@ -46,7 +46,7 @@ padding-bottom: 40px;
 
 .boxes .box .imgbox1 img {
     max-width: 500px;
-    max-height: 200px;
+    max-height: 250px;
 }
 
 .button {
