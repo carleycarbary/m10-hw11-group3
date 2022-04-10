@@ -38,14 +38,14 @@ body {
     top: 0;
     left: 0;
     bottom: 0;
-    background: wheat;
+    background: lightblue;
     padding-top: 50px;
 }
 
 .sidebar a {
     display: block;
     padding: 10px;
-    color: goldenrod;
+    color: wheat;
     text-decoration: none;
     font-family: "Rubix";
     letter-spacing: 2px;
