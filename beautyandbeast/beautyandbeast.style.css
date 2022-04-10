@@ -23,7 +23,6 @@ padding-bottom: 40px;
 
 .background-image {
     background-image: url(ballroom.jpeg);
-    background-size: contain;
     background-repeat: no-repeat;
     width: 200px;
     height: 100vh;
