@@ -59,6 +59,11 @@ padding-bottom: 40px;
     position: left;
 }
 
+.restaurant {
+    display: block;
+    position: right;
+}
+
 .img {
     display: block;
     margin: 0% auto;
