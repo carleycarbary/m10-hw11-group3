@@ -42,14 +42,14 @@ body {
     padding-top: 0px;
 }
 
-.right.sidebar {
+.sidebar1 {
     position: right;
     width: 250px;
     top: 0;
     left: 0;
     bottom: 0;
     background: mediumblue;
-    padding-top: 50px;
+    padding-top: 0px;
 }
 
 h1 {
