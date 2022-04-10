@@ -32,7 +32,7 @@ body {
     font-size: 20px;
 }
 
-.left.sidebar {
+.sidebar {
     position: fixed;
     width: 250px;
     top: 0;
