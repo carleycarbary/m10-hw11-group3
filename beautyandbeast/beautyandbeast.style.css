@@ -86,13 +86,10 @@ background-color: royalblue;
 }
 
 .center {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
+    display: block;
+    position: left;
 }
+
 
 .footer {
     position: bottom;
