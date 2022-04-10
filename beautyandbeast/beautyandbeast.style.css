@@ -43,8 +43,7 @@ body {
 }
 
 .sidebar2 {
-    position: fixed;
-    float: right;
+    float: left;
     width: 250px;
     top: 0;
     left: 0;
