@@ -76,7 +76,7 @@ background-color: royalblue;
 }
 
 .footer {
-    position: fixed;
+    position: bottom;
     justify-content: center;
     left: 0%;
     top:0%;
