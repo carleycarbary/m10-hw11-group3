@@ -99,8 +99,8 @@ background-color: royalblue;
 
 .wrapper img {
     display: block;
-    width: 230;
-    height: 130;
+    width: 100%;
+    height: auto;
 }
 
 .content {
