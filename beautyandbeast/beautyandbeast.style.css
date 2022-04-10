@@ -43,9 +43,12 @@ padding-bottom: 40px;
     background-size: cover;
 }
 
-.flex-container {
-    border-radius: 50%;
-
+.container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .img {
