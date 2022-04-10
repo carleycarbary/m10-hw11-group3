@@ -74,6 +74,12 @@ h1 {
     position: left;
 }
 
+.container1 {
+    display: block;
+    position: center;
+    float: right;
+}
+
 .img {
     display: block;
     margin: 0% auto;
