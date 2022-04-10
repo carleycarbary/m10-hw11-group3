@@ -29,6 +29,10 @@ body {
     background-size: cover;
 }
 
+h1 {
+    color: wheat;
+}
+
 .button {
     background-color: gold;
     border: darkblue;
