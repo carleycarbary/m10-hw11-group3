@@ -51,9 +51,7 @@ padding-bottom: 40px;
 
 .container {
     display: block;
-    margin: 20px auto;
-    max-width: 500px;
-    height: 300px;
+    position: left;
 }
 
 .img {
