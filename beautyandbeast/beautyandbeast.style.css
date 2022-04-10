@@ -86,13 +86,6 @@ background-color: royalblue;
     position: left;
 }
 
-.restaurant {
-    width: 300px;
-    height: 250px;
-    float: right;
-}
-
-
 .footer {
     position: bottom;
     justify-content: center;
