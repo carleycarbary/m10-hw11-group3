@@ -24,7 +24,7 @@ padding-bottom: 40px;
 .background-image {
     height: 100%;
     background-position: center;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: cover;
 }
 
