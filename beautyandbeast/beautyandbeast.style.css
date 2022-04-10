@@ -19,11 +19,7 @@ max-width: 900px;
 margin: 20px auto;
 padding-top: 50px;
 padding-bottom: 40px;
-}
-
-.background-image {
-    background-image: url(ballroom.jpeg);
-    background-repeat: repeat;
+background-image: url(ballroom.jpeg);
 }
 
 .img {
