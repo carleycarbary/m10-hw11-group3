@@ -1,0 +1,332 @@
+.header {
+    position: fixed;
+    justify-content: center;
+    left: 0%;
+    top:0%;
+    width: 100%;
+    background-color: gold;
+    color: royalblue;
+    text-align: center;
+}
+
+.title {
+    position: center;
+    color: gold;
+}
+
+body {
+max-width: 900px;
+margin: 20px auto;
+padding-top: 50px;
+padding-bottom: 40px;
+}
+
+body {
+    background-image: url(ballroom.jpeg);
+    background-color: #000000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+h1 {
+    color: wheat;
+}
+
+.button {
+    background-color: gold;
+    border: darkblue;
+    padding: 12 px 18px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    float: right;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: width 5s;
+}
+
+.button:hover {
+    width: 500px;
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 20, 0), 0 17px 50px 0 rgba(0, 0, 30, 0)
+}
+
+.background-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 100%;
+    margin-top: 100px;
+   border-radius: 50%;
+}
+
+.img {
+    display: block;
+    margin: 0% auto;
+}
+
+.main{
+    margin-right: 140 px;
+    font-size: 14px;
+    padding: 30px 10px 10px;
+    background-color: royalblue;
+    }
+
+    .center {
+        display: block;
+        position: left;
+    }
+    .hover-img {
+        background-color: #000;
+        color: #fff;
+        display: inline-block;
+        margin: 8px;
+        max-width: 320px;
+        min-width: 240px;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      
+      .hover-img * {
+        box-sizing: border-box;
+        transition: all 0.45s ease;
+      }
+      
+      .hover-img:before,
+      .hover-img:after {
+        background-color: rgba(0, 0, 0, 0.5);
+        border-top: 32px solid rgba(0, 0, 0, 0.5);
+        border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        content: '';
+        transition: all 0.3s ease;
+        z-index: 1;
+        opacity: 0;
+        transform: scaleY(2);
+      }
+
+      .hover-img img {
+        vertical-align: top;
+        max-width: 100%;
+        backface-visibility: hidden;
+      }
+      
+      .hover-img figcaption {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        align-items: center;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.1em;
+        opacity: 0;
+        z-index: 2;
+        transition-delay: 0.1s;
+        font-size: 24px;
+        font-family: sans-serif;
+        font-weight: 400;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+      }
+      
+      .hover-img:hover:before,
+      .hover-img:hover:after {
+        transform: scale(1);
+        opacity: 1;
+      }
+      
+      .hover-img:hover > img {
+        opacity: 0.7;
+      }
+      
+      .hover-img:hover figcaption {
+        opacity: 1;
+      }
+    
+      .hover-img1 {
+ background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 8px;
+    max-width: 320px;
+    min-width: 240px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .hover-img1 * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+  }
+  
+  .hover-img1:before,
+  .hover-img1:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 32px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+  }
+  
+  .hover-img1 img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .hover-img1 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .hover-img1:hover:before,
+  .hover-img1:hover:after {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .hover-img1:hover > img {
+    opacity: 0.7;
+  }
+  
+  .hover-img1:hover figcaption {
+    opacity: 1;
+  }
+
+  .hover-img2 {
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    margin: 8px;
+    max-width: 320px;
+    min-width: 240px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  .hover-img2 * {
+    box-sizing: border-box;
+    transition: all 0.45s ease;
+  }
+  
+  .hover-img2:before,
+  .hover-img2:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-top: 32px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 32px solid rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+    transform: scaleY(2);
+  }
+  
+  .hover-img2 img {
+    vertical-align: top;
+    max-width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .hover-img2 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    transition-delay: 0.1s;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .hover-img2:hover:before,
+  .hover-img2:hover:after {
+    transform: scale(1);
+    opacity: 1;
+  }
+  
+  .hover-img2:hover > img {
+    opacity: 0.7;
+  }
+  
+  .hover-img2:hover figcaption {
+    opacity: 1;
+  }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gold;
+    color: royalblue;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
