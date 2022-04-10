@@ -21,6 +21,13 @@ padding-top: 50px;
 padding-bottom: 40px;
 }
 
+.background-image {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .img {
     display: block;
     margin: 0% auto;
