@@ -32,7 +32,8 @@ background-color:royalblue;
 .main{
 margin-right: 140 px;
 font-size: 14px;
-padding: 30px 10px 10px
+padding: 30px 10px 10px;
+background-color: royalblue;
 }
 
 .center {
