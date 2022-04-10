@@ -23,7 +23,7 @@ padding-bottom: 40px;
 
 .background-image {
     background-image: url(ballroom.jpeg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
 }
 
 .img {
