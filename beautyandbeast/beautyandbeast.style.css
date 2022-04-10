@@ -14,11 +14,27 @@
     color: gold;
 }
 
-.body {
+body {
 max-width: 900px;
 margin: 20px auto;
 padding-top: 50px;
 padding-bottom: 40px;
+}
+
+.button {
+    background-color: blue;
+    border: darkblue;
+    padding: 12 px 18px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    float: right;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: width 5s;
 }
 
 .background-image {
