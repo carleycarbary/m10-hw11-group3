@@ -70,12 +70,12 @@ h1 {
 }
 
 .container {
-    width: 600px;
+    display: table-row;
     float: left;
 }
 
 .container1 {
-    display: block;
+    display: table-row;
     position: center;
     float: right;
 }
