@@ -32,7 +32,24 @@ body {
     font-size: 20px;
 }
 
+.sidebar {
+    position: fixed;
+    width: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #111;
+    padding-top: 50px;
+}
 
+.sidebar a {
+    display: block;
+    padding: 10px;
+    color: fff;
+    text-decoration: none;
+    font-family: "Rubix";
+    letter-spacing: 2px;
+}
 
 h1 {
     color: wheat;
