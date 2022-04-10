@@ -43,6 +43,11 @@ padding-bottom: 40px;
     background-size: cover;
 }
 
+.flex-container {
+    border-radius: 50%;
+
+}
+
 .img {
     display: block;
     margin: 0% auto;
