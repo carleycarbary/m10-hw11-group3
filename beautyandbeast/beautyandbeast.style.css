@@ -63,7 +63,8 @@ padding-bottom: 40px;
 
 
 .restaurant {
-    width: fit-content;
+    width: 500px;
+    height: 400px;
     display: block;
     position: right;
 }
