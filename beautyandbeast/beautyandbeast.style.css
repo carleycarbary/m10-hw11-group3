@@ -32,23 +32,22 @@ body {
     font-size: 20px;
 }
 
-.sidebar {
+.left.sidebar {
     position: fixed;
     width: 250px;
     top: 0;
     left: 0;
     bottom: 0;
     background: mediumblue;
-    padding-top: 50px;
 }
 
-.sidebar a {
-    display: block;
-    padding: 10px;
-    color: wheat;
-    text-decoration: none;
-    font-family: "Rubix";
-    letter-spacing: 2px;
+.right.sidebar {
+    position: right;
+    width: 250px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: transparent;
 }
 
 h1 {
