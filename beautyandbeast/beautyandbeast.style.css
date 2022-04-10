@@ -42,7 +42,10 @@ padding-bottom: 40px;
 
 .boxes .box .imgbox1 {
     position: relative;
-    max-width: 100%;
+}
+
+.boxes .box .imgbox1 img {
+    max-width: 100px;
 }
 
 .button {
